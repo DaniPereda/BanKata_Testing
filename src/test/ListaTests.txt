@@ -1,0 +1,28 @@
+check new account
+	check new account name
+	check new account Transactions Empty
+	check new account balance
+
+check deposit new amount
+check deposit account name
+check deposit last transaction added
+
+check withdraw new amount
+check withdraw account name
+check withdraw last transaction added
+check withdraw not enough money (jo faria això, crec que a la meva ultima versió ho vaig fer, pero soc sobre el teu skeleton, mes aviat com a reflexió: ¿el faig, el deixo petar, i programo per que deixi de petar?)
+
+check retrieveAccountBalance after 1 deposit and 1 withdraw and 1 deposit
+check transactions after 1 deposit and 1 withdraw
+
+Using 2 instances of Transaction:
+	-New TransactionA
+	-New TransactionB
+	-TransactionA.deposit(100)
+	-TransactionB.deposit(30)
+	-TransationB.withdraw(5)
+
+	IsTransactionA Balance OK?
+	IsTransactionB Balance OK?
+	IsTransactionA TransactionList OK?
+	IsTransactionB TransactionList OK?
